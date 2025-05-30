@@ -42,7 +42,8 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className="bg-[#121212] text-white py-16 px-6">
+    <div>
+    <section className="bg-neutral-900 text-white py-16 px-6">
       <h2 className="text-4xl font-bold text-center mb-4">Our Team</h2>
       <div className="text-center text-gray-400 mb-12 max-w-3xl mx-auto">
         Meet the talented professionals behind our exceptional work. Each member brings unique expertise to deliver quality solutions.
@@ -78,6 +79,72 @@ const Team = () => {
         ))}
       </div>
     </section>
+    
+<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 container max-w-7xl gap-4 pl-6 pb-10 mx-auto  '>
+
+        <div className='bg-neutral-800 text-center p-8 rounded-2xl'>
+          <div className='flex justify-center'>
+          <div  className='w-12 h-12 rounded-full bg-blue-500/30 text-blue-500 text-center pt-3 shrink-0 '> 
+            <span class="material-icons">
+groups
+</span>
+          </div  >
+          </div>
+          
+         <h2 className='text-3xl font-bold'> 5+</h2>
+          <p className='text-slate-300'>Team Members</p>
+        </div>
+
+ <div className='bg-neutral-800  text-center p-8 rounded-2xl'>
+          <div className='flex justify-center'>
+          <div  className='w-12 h-12 rounded-full bg-red-500/30 text-red-500 text-center pt-3 '> 
+            <span class="material-icons">
+business_center
+</span>
+          </div  >
+          </div>
+          
+         <h2 className='text-3xl font-bold text-center'> 20+</h2>
+          <p className='text-slate-300'>Projects Completed</p>
+        </div>
+
+ <div className='bg-neutral-800  text-center p-8 rounded-2xl'>
+          <div className='flex justify-center'>
+          <div  className='w-12 h-12 rounded-full bg-blue-500/30 text-blue-500 text-center pt-3 '> 
+            <span class="material-icons">
+sentiment_satisfied
+</span>
+          </div  >
+          </div>
+          
+         <h2 className='text-3xl font-bold'> 15+</h2>
+          <p className='text-slate-300'>Happy Clients</p>
+        </div>
+
+         <div className='bg-neutral-800  text-center p-8 rounded-2xl'>
+          <div className='flex justify-center'>
+          <div  className='w-12 h-12 rounded-full bg-red-500/30 text-red-500 text-center pt-3 '> 
+            <span class="material-icons">
+schedule
+</span>
+          </div  >
+          </div>
+          
+         <h2 className='text-3xl font-bold'> 24/7</h2>
+          <p className='text-slate-300'>Support Available</p>
+        </div>
+
+
+  </div>  
+    
+    <div className='text-center'> 
+      <h3 className='text-4xl text-bold pb-3 '>Ready to Work With Our Team?</h3>
+      <p className='text-slate-300'>Let's collaborate to transform your ideas into exceptional digital experiences.</p>
+
+      <button className='bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-4 mt-5 rounded-2xl'>Get In Touch</button>
+    </div>
+
+    </div>
     
   );
 };

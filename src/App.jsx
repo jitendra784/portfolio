@@ -23,7 +23,8 @@ function App() {
     <Service />
     <Project />
     <Team />
-
+    <Test />
+    <Contact />
     </div>
     
   )

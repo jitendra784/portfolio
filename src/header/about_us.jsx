@@ -4,7 +4,13 @@ function About_us(){
         <div className='bg-neutral-800'>
         <div className=" container w-full mx-auto px-4 pt-9 mt-24 bg-neutral-800 mb-30">
             <div className="text">
-            <h2 className="text-4xl text-center font-bold">About Me</h2>
+            <div className='pt-10 flex justify-center'>
+  <h1 className='text-4xl text-center font-bold relative inline-block pb-3'>
+    About Us
+  
+  <span id="se" className='w-28 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 absolute left-1/2 -translate-x-1/2 bottom-0 rounded-full'></span>
+  </h1>
+</div>
             
         <p className="text-center">Get to know me better and see how I can help bring your digital ideas to life.</p>
         </div>

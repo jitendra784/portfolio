@@ -2,7 +2,10 @@
 function Service(){
     return (
         <div id="main" className="w-full container mx-auto px-4 overflow-x-hidden bg-neutral-900 text-center">
-                <div id="ser_text">                <h1 className="text-center text-4xl font-bold">Services</h1>
+                <div id="ser_text">               
+                  <div className="flex relative justify-center pb-3">
+                   <h1 className="text-center text-4xl font-bold">Services<span id="se" className='w-28 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 absolute left-1/2 -translate-x-1/2 bottom-0 rounded-full'></span></h1>
+                   </div>
                 <p className="text-center mb-10">Specialized services tailored to meet your digital needs with cutting-edge technologies and expert solutions.</p>
                 </div>
 

@@ -1,12 +1,14 @@
 import Project_card from "./project_card"
 
-Project_card
 function Project(){
     return(
         <div className="py-20 bg-neutral-100 dark:bg-neutral-800">
             <div className="text-center ">
-            <h2 className="text-4xl mb-3 ">Projects</h2>
-            <p>Explore my latest work and see how I bring ideas to life with code and creativity.</p>
+                <div className="flex justify-center relative ">
+            <h2 className="text-4xl font-bold mb-3 ">Projects <span id="se" className='w-28 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 absolute left-1/2 -translate-x-1/2 bottom-0 rounded-full'></span>
+      </h2>
+      </div>
+            <p className="pt-2">Explore my latest work and see how I bring ideas to life with code and creativity.</p>
             <div className="flex gap-3 justify-center mt-4">
             <button className="bg-blue-400 text-white rounded-full p-2">All Projects</button>
             <button className="bg-slate-500 text-white rounded-full p-2">Mobile Apps</button>

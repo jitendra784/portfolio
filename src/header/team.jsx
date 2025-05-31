@@ -44,7 +44,11 @@ const Team = () => {
   return (
     <div>
     <section className="bg-neutral-900 text-white py-16 px-6">
-      <h2 className="text-4xl font-bold text-center mb-4">Our Team</h2>
+      <div className='flex justify-center'>
+      <h2 className="text-4xl font-bold text-center mb-4 relative pb-3 ">Our Team
+        <span id="se" className='w-28 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 absolute left-1/2 -translate-x-1/2 bottom-0 rounded-full'></span>
+      </h2>
+      </div>
       <div className="text-center text-gray-400 mb-12 max-w-3xl mx-auto">
         Meet the talented professionals behind our exceptional work. Each member brings unique expertise to deliver quality solutions.
       </div>

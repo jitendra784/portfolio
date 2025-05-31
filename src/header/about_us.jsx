@@ -1,6 +1,7 @@
 import PersonIcon from '@mui/icons-material/Person';
 function About_us(){
     return(
+        <div className='bg-neutral-800'>
         <div className=" container w-full mx-auto px-4 pt-9 mt-24 bg-neutral-800 mb-30">
             <div className="text">
             <h2 className="text-4xl text-center font-bold">About Me</h2>
@@ -89,6 +90,8 @@ function About_us(){
 
         </div>
         </div>
+        </div>
+
         </div>
     )
 }

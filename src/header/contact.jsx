@@ -14,16 +14,16 @@ function Contact(){
                 <p>Ready to Discuss your project? Reach out to us for a consultation or just to say hello.</p>
             </div>
 
-            <div id="main" className="md:grid-cols-1 lg:grid-cols-2 grid grid-cols-1  p-7 mb-7">
+            <div id="main" className="md:grid-cols-1 lg:grid-cols-2 gap-6 grid grid-cols-1  p-7 mb-17">
                 <div id="left" className="bg-neutral-700 p-6 rounded-2xl" >
                 <h2 className="text-3xl pb-5 ">Contact Information</h2>
                 <p> Feel free to reach out to us through any of these channels. We're eager to hear about your project and how we can help.</p>
 
                 <div className="grid grid-cols-1">
                 <div id='symobol_main ' className=' flex pb-4 pt-4 '>
-        <div id='left ' className='w-12 h-12 rounded-full  text-center border-1 hover:bg-blue-300 duration-300 
+        <div id='left ' className='w-12 h-12 rounded-full  text-center  hover:bg-blue-300 duration-300 
         bg-blue-500/30 hover:border-blue-600 hover:border-2 mr-4 shrink-0'>
-            <span class="material-icons text-blue-800 pt-3">
+            <span class="material-icons text-blue-500 pt-3">
         call
 </span>
         </div>
@@ -33,9 +33,9 @@ function Contact(){
         </div>
         </div>
                 <div id='symobol_main ' className=' flex pb-4 pt-4 '>
-        <div id='left ' className='w-12 h-12 rounded-full  text-center border-1 hover:bg-red-300 duration-300 
+        <div id='left ' className='w-12 h-12 rounded-full  text-center hover:bg-red-300 duration-300 
         bg-red-500/30 hover:border-red-600 hover:border-2 mr-4 shrink-0'>
-            <span class="material-icons text-red-800 pt-3">
+            <span class="material-icons text-red-500 pt-3">
         mail
 </span>
         </div>
@@ -46,9 +46,9 @@ function Contact(){
         </div>
 
                 <div id='symobol_main ' className=' flex pb-4 pt-4 '>
-        <div id='left ' className='w-12 h-12 rounded-full  text-center border-1 hover:bg-blue-300 duration-300 
+        <div id='left ' className='w-12 h-12 rounded-full  text-center  hover:bg-blue-300 duration-300 
         bg-blue-500/30 hover:border-blue-600 hover:border-2 mr-4 shrink-0'>
-            <span class="material-icons text-blue-800 pt-3">
+            <span class="material-icons text-blue-500 pt-3">
         location_on
 </span>
         </div>
@@ -82,7 +82,7 @@ function Contact(){
           href="https://instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-12 h-12 rounded-full bg-[#2e2f33] flex items-center justify-center hover:bg-blue-500"
+          className="w-12 h-12 rounded-full bg-[#2e2f33] flex items-center justify-center hover:bg-red-500"
         >
           <FontAwesomeIcon icon={faInstagram} size="lg" />
         </a>
@@ -91,16 +91,41 @@ function Contact(){
           href="https://wa.me/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-12 h-12 rounded-full bg-[#2e2f33] flex items-center justify-center hover:bg-blue-500"
+          className="w-12 h-12 rounded-full bg-[#2e2f33] flex items-center justify-center hover:bg-green-500"
         >
           <FontAwesomeIcon icon={faWhatsapp} size="lg" />
         </a>
       </div>
                 </div>
 
+            <div className="bg-green-500/30 container px-4 py-5 mt-7 rounded-xl"> 
+            <div className="w-full flex">
+            <div>
+            <a
+          href="https://wa.me/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-12 h-12 rounded-full  flex items-center justify-center bg-green-500"
+        >
+          <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+        </a>
+         </div>
+         <div className="ml-3 mb-4">
+            <h1 className="text-xl font-semibold ">WhatsApp Business</h1>
+            <p>Get instant responses to your queries</p>
+        </div>
+        </div >
+            <div className="w-full bg-green-500 flex justify-center p-2 rounded-xl">
+         <button>
+            Chat Now
+         </button>
+         </div>
+            </div>
+           
+
                 </div>
                 <div id="right">
-<div className=" bg-[#1f1f1f] p-8 rounded-xl shadow-lg ml-5">
+<div className=" bg-[#1f1f1f] p-10 rounded-xl shadow-lg  ">
       <h2 className="text-white text-2xl font-bold mb-6">Send Us a Message</h2>
 
       <form className="space-y-6">

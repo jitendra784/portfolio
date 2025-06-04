@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <header className="flex container mx-auto px-4">
-      <nav className="bg-neutral-900 bg-opacity-90 w-full flex pt-4 pb-3 justify-between items-center">
+    <header className="sticky top-0 z-1   bg-opacity-80 backdrop-blur-md">
+  <nav className="container mx-auto  w-full flex pt-4 pb-3 justify-evenly items-center  ">
         <Link
           to="/"
           className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text text-xl"

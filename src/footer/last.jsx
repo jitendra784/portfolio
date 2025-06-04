@@ -231,7 +231,7 @@ function Footer() {
         </div>
         <div id='main_text' className=' flex flex-col pt-3'>
         
-        <p className='text-slate-300'>+91 93342 74325</p>
+        <p className='text-slate-300'>+91 9785631195</p>
         </div>
         </div>
 
@@ -242,7 +242,7 @@ function Footer() {
 </span>
         </div>
         <div id='main_text' className=' flex flex-col pt-3'>
-        <p className='text-slate-300 '>rk9600460@gmail.com</p>
+        <p className='text-slate-300 '>jitendrasingh97850@gmail.com</p>
         </div>
         </div>
 
@@ -254,7 +254,7 @@ function Footer() {
         </div>
         <div id='main_text' className=' flex flex-col pt-3'>
         
-        <p className='text-slate-300'>Delhi, India</p>
+        <p className='text-slate-300'>Jaipur, India</p>
         </div>
         </div>
         <h2 className='text-xl'> Subscribe To Newsletter</h2>

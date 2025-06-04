@@ -9,7 +9,7 @@ function Project(){
       </h2>
       </div>
             <p className="pt-2">Explore my latest work and see how I bring ideas to life with code and creativity.</p>
-            <div className="flex gap-3 justify-center mt-4">
+            <div className="flex gap-3 justify-center mt-4 text-xs md:text-base">
             <button className="bg-blue-400 text-white rounded-full p-2">All Projects</button>
             <button className="bg-slate-500 text-white rounded-full p-2">Mobile Apps</button>
             <button className="bg-slate-500 text-white rounded-full p-2">Websites</button>
@@ -18,7 +18,7 @@ function Project(){
             </div>
             </div>
 
-            <div className="mx-auto px-4 container grid grid-cols-1  gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mx-auto px-4 container grid grid-cols-1  gap-6 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
             <Project_card techLabel="Flutter"
         icon="smartphone"
         title="E-Commerce Mobile App"
@@ -34,12 +34,12 @@ function Project(){
         description="A comprehensive business management system with employee dashboard, task management, and analytics."
         text1="Laravel"
         text2="MySQL"
-        text3="Vue.js"/>
+        text3="Vue.js "/>
 
         <Project_card techLabel="React Native"
         icon="attach_money"
         title="Expense Tracker"
-        description="A personal finance app with budget planning, expense tracking, and visual reports to help users manage finances."
+        description="A personal finance app with budget planning, expense tracking, and visual reports to help users manage finances"
         text1="React Native"
         text2="Redux"
         text3="Charts"/>

@@ -35,11 +35,11 @@ function About_us(){
         <div className=' text-center flex rounded-lg p-3 bg-neutral-600 transform hover:scale-105 duration-300 '><span className='w-8 h-8 bg-red-500 rounded-full pt-1 mr-3 text-center shrink-0'>P</span>PHP</div>
         </div>
 
-        <div id='main' className='grid grid-cols-2 gap-6 sm:grid-cols-1 lg:grid-cols-2'>
+        <div id='main' className='grid grid-cols-2 gap-6 sm:grid-cols-1 lg:grid-cols-2 pb-20'>
 
-        <div id='symobol_mai ' className=' flex '>
-        <div id='left ' className='w-12 h-12 rounded-full  text-center border-1 hover:bg-blue-300 duration-100 hover:border-blue-600 hover:border-2 mr-4 shrink-0'>
-            <span class="material-icons text-blue-800 pt-3">
+        <div id='symobol_mai' className=' flex '>
+        <div id='left ' className='group w-12 h-12  rounded-full  text-center bg-blue-500/30  hover:bg-blue-500 duration-100  mr-4 shrink-0'>
+            <span class="material-icons text-blue-500 pt-3 group-hover:text-white">
         business_center
 </span>
         </div>
@@ -54,8 +54,8 @@ function About_us(){
         </div>
 
 <div id='symobol_main ' className=' flex shrink-0'>
-        <div id='left ' className='w-12 h-12 rounded-full  text-center border-1 hover:bg-red-200 duration-100 mr-4 hover:border-red-600 hover:border-2 shrink-0'>
-            <span class="material-icons text-[#FF006E] pt-3  ">
+        <div id='left ' className='group w-12 h-12 rounded-full  text-center bg-red-500/30 duration-100 mr-4 hover:bg-red-500  shrink-0'>
+            <span class="material-icons text-[#FF006E] pt-3  group-hover:text-white">
         bolt
 </span>
         </div>
@@ -66,8 +66,8 @@ function About_us(){
         </div>
 
         <div id='symobol_main ' className=' flex pb-4 '>
-        <div id='left ' className='w-12 h-12 rounded-full  text-center border-1 hover:bg-blue-300 duration-300 hover:border-blue-600 hover:border-2 mr-4 shrink-0'>
-            <span class="material-icons text-blue-800 pt-3">
+        <div id='left ' className='group w-12 h-12 rounded-full  text-center  bg-blue-500/30 hover:bg-blue-500 duration-300  mr-4 shrink-0'>
+            <span class="material-icons text-blue-500 group-hover:text-white pt-3">
         lightbulb
 </span>
         </div>
@@ -78,8 +78,8 @@ function About_us(){
         </div>
 
 <div id='symobol_main ' className=' flex '>
-        <div id='left ' className='w-12 h-12 rounded-full  text-center border-1 hover:bg-red-200 hover:border-red-600 hover:border-2  duration-300 mr-4 shrink-0 '>
-            <span class="material-icons text-[#FF006E] pt-3">
+        <div id='left ' className='group w-12 h-12 rounded-full  text-center bg-red-500/30 duration-100 mr-4 hover:bg-red-500  shrink-0'>
+            <span class="material-icons text-[#FF006E] pt-3  group-hover:text-white">
         schedule
 </span>
         </div>

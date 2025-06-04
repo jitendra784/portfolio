@@ -8,7 +8,7 @@ import {
 
 function Contact(){
     return(
-        <div className="mx-auto container px-4 pt-10">
+        <div className="mx-auto container px-4 pt-10 w-full h-full">
             <div className="text-center">
                 <h1 className="text-4xl font-bold">Get In Touch</h1>
                 <p>Ready to Discuss your project? Reach out to us for a consultation or just to say hello.</p>

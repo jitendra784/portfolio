@@ -16,7 +16,7 @@ This is a personal portfolio website built using **React** and **Vite**. It show
 ## 🛠️ Installation & Setup
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/jitendra784/portfolio
+cd portfolio
 npm install
 npm run dev
